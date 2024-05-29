@@ -3,7 +3,7 @@
 Plugin Name: WP-AddressAutoComplete
 Plugin URI: https://clickssmaster.com/
 Description: A plugin to add a Google Maps API key to the settings.
-Version: 1.0.1
+Version: 1.0.2
 Author: DeveloperAnonimous
 Author URI: https://clickssmaster.com/
 License: GPL 2+
@@ -38,9 +38,9 @@ function load_google_places_script() {
             ?>
             <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo esc_attr($api_key); ?>&libraries=places"></script>
             <?php
-              // Cargar tu archivo CSS personalizado
-            wp_enqueue_style('wp-addressautocomplete-style', plugin_dir_url(__FILE__) . 'styleaddressautocomplete.css', array(), '1.0', 'all');
         }
+           // Incluir directamente el archivo CSS personalizado desde la carpeta del plugin
+        echo '<link rel="stylesheet" href="' . plugin_dir_url(__FILE__) . 'styleaddressautocomplete.css">';
     }
 }
 add_action('wp_head', 'load_google_places_script');
