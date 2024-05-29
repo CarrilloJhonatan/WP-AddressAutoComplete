@@ -28,7 +28,6 @@ Ahora el autocompletado de direcciones estará disponible en el formulario de pa
 ## Notas Adicionales
 
 - Asegúrate de tener una clave de API válida de Google Maps.
-- Puedes personalizar el estilo del autocompletado de direcciones editando el archivo `wp-addressautocomplete.css` en la carpeta del plugin.
 - Si deseas desactivar el plugin, puedes hacerlo desde la sección `Plugins` en el panel de administración de WordPress.
 
 ¡Disfruta del autocompletado de direcciones en tu sitio web de WordPress!
