@@ -6,7 +6,7 @@ Este plugin de WordPress permite agregar una clave de API de Google Maps a la co
 
 ### 1. Descarga el Plugin
 
-- Descarga el archivo zip del plugin desde [aquí](https://tu-sitio.com/wp-addressautocomplete.zip).
+- Descarga el archivo zip del plugin desde [aquí](/CarrilloJhonatan/WP-AddressAutoComplete/archive/refs/heads/main.zip).
 
 ### 2. Instala el Plugin en WordPress
 
